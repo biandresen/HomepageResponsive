@@ -1,0 +1,6 @@
+@font-face {
+  font-family: "haloDek"; /* Choose a name for the font */
+  src: url("../fonts/Halo\ Dek.ttf") format("truetype"); /* Path relative to the root */
+  font-weight: normal; /* Optional: Specify font weight */
+  font-style: normal; /* Optional: Specify font style */
+}
