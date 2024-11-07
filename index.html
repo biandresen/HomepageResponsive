@@ -26,7 +26,13 @@
       type="text/css"
       href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
     />
-
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./src/assets/css/reset.css" />
     <link rel="stylesheet" href="./src/assets/css/fonts.css" />
     <link rel="stylesheet" href="./src/assets/css/style.css" />
@@ -34,62 +40,230 @@
     <title>Homepage</title>
   </head>
   <body>
-    <div class="top-background-decor"></div>
-    <div class="profile-picture-container">
-      <img
-        class="profile-picture"
-        src="./src/assets/images/profilePicture.jpg"
-        alt="Profile picture"
-      />
-      <p class="profile-picture-name">Birger Andresen</p>
-    </div>
-    <div class="about-me-container">
-      <h1 class="about-me-header">About me</h1>
-      <p class="about-me-paragraph">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, iste.
-        Corporis, quisquam dignissimos quam dolores consequatur, quae harum
-        fugit natus reiciendis placeat necessitatibus dolorem exercitationem
-        vero, qui doloremque cum nulla!
-      </p>
-      <div class="about-me-icon-container">
-        <i
-          class="devicon-github-original colored about-me-icon icon-github"
-        ></i>
-        <i
-          class="devicon-linkedin-plain colored about-me-icon icon-linkedin"
-          style="color: black"
-        ></i>
-        <i
-          class="devicon-twitter-original colored about-me-icon icon-twitter"
-        ></i>
+    <header>
+      <div class="top-background-decor"></div>
+      <div class="profile-picture-container">
+        <img
+          class="profile-picture"
+          src="./src/assets/images/profilePicture.jpg"
+          alt="Profile picture"
+        />
+        <p class="profile-picture-name">Name McNamey</p>
       </div>
-    </div>
+      <div class="about-me-container">
+        <h1 class="about-me-heading">About me</h1>
+        <p class="about-me-paragraph">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis,
+          iste. Corporis, quisquam dignissimos quam dolores consequatur, quae
+          harum fugit natus reiciendis placeat necessitatibus dolorem
+          exercitationem vero, qui doloremque cum nulla!
+        </p>
+        <div class="about-me-icon-container">
+          <i
+            class="devicon-github-original colored about-me-icon icon-github"
+          ></i>
+          <i
+            class="devicon-linkedin-plain colored about-me-icon icon-linkedin"
+            style="color: black"
+          ></i>
+          <i
+            class="devicon-twitter-original colored about-me-icon icon-twitter"
+          ></i>
+        </div>
+      </div>
+    </header>
 
-    <div class="icons">
-      <svg
-        width="30"
-        height="30"
-        stroke="white"
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 24 24"
-      >
-        <title>phone-outline</title>
-        <path
-          d="M20,15.5C18.8,15.5 17.5,15.3 16.4,14.9C16.3,14.9 16.2,14.9 16.1,14.9C15.8,14.9 15.6,15 15.4,15.2L13.2,17.4C10.4,15.9 8,13.6 6.6,10.8L8.8,8.6C9.1,8.3 9.2,7.9 9,7.6C8.7,6.5 8.5,5.2 8.5,4C8.5,3.5 8,3 7.5,3H4C3.5,3 3,3.5 3,4C3,13.4 10.6,21 20,21C20.5,21 21,20.5 21,20V16.5C21,16 20.5,15.5 20,15.5M5,5H6.5C6.6,5.9 6.8,6.8 7,7.6L5.8,8.8C5.4,7.6 5.1,6.3 5,5M19,19C17.7,18.9 16.4,18.6 15.2,18.2L16.4,17C17.2,17.2 18.1,17.4 19,17.4V19Z"
+    <main>
+      <h2 class="card-section-heading">My work</h2>
+      <div class="cards-container">
+        <div class="card1 card">
+          <img class="project-image" src="" alt="" />
+          <div class="project-text-container">
+            <div class="project-header">
+              <h3 class="project-heading">Project name</h3>
+              <div class="project-links">
+                <i
+                  class="devicon-github-original colored about-me-icon icon-github"
+                ></i>
+                <i class="fa-solid fa-up-right-from-square icon-square"></i>
+              </div>
+            </div>
+            <p class="project-paragraph">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Distinctio quam, ipsam, magni labore ad tempora modi doloremque et
+              cum ea possimus. Vel sit aperiam facilis dolore modi? Doloribus,
+              qui dignissimos.
+            </p>
+          </div>
+        </div>
+        <div class="card2 card">
+          <img class="project-image" src="" alt="" />
+          <div class="project-text-container">
+            <div class="project-header">
+              <h3 class="project-heading">Project name</h3>
+              <div class="project-links">
+                <i
+                  class="devicon-github-original colored about-me-icon icon-github"
+                ></i>
+                <i class="fa-solid fa-up-right-from-square icon-square"></i>
+              </div>
+            </div>
+            <p class="project-paragraph">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Distinctio quam, ipsam, magni labore ad tempora modi doloremque et
+              cum ea possimus. Vel sit aperiam facilis dolore modi? Doloribus,
+              qui dignissimos.
+            </p>
+          </div>
+        </div>
+        <div class="card3 card">
+          <img class="project-image" src="" alt="" />
+          <div class="project-text-container">
+            <div class="project-header">
+              <h3 class="project-heading">Project name</h3>
+              <div class="project-links">
+                <i
+                  class="devicon-github-original colored about-me-icon icon-github"
+                ></i>
+                <i class="fa-solid fa-up-right-from-square icon-square"></i>
+              </div>
+            </div>
+            <p class="project-paragraph">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Distinctio quam, ipsam, magni labore ad tempora modi doloremque et
+              cum ea possimus. Vel sit aperiam facilis dolore modi? Doloribus,
+              qui dignissimos.
+            </p>
+          </div>
+        </div>
+        <div class="card4 card">
+          <img class="project-image" src="" alt="" />
+          <div class="project-text-container">
+            <div class="project-header">
+              <h3 class="project-heading">Project name</h3>
+              <div class="project-links">
+                <i
+                  class="devicon-github-original colored about-me-icon icon-github"
+                ></i>
+                <i class="fa-solid fa-up-right-from-square icon-square"></i>
+              </div>
+            </div>
+            <p class="project-paragraph">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Distinctio quam, ipsam, magni labore ad tempora modi doloremque et
+              cum ea possimus. Vel sit aperiam facilis dolore modi? Doloribus,
+              qui dignissimos.
+            </p>
+          </div>
+        </div>
+        <div class="card5 card">
+          <img class="project-image" src="" alt="" />
+          <div class="project-text-container">
+            <div class="project-header">
+              <h3 class="project-heading">Project name</h3>
+              <div class="project-links">
+                <i
+                  class="devicon-github-original colored about-me-icon icon-github"
+                ></i>
+                <i class="fa-solid fa-up-right-from-square icon-square"></i>
+              </div>
+            </div>
+            <p class="project-paragraph">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Distinctio quam, ipsam, magni labore ad tempora modi doloremque et
+              cum ea possimus. Vel sit aperiam facilis dolore modi? Doloribus,
+              qui dignissimos.
+            </p>
+          </div>
+        </div>
+        <div class="card6 card">
+          <img class="project-image" src="" alt="" />
+          <div class="project-text-container">
+            <div class="project-header">
+              <h3 class="project-heading">Project name</h3>
+              <div class="project-links">
+                <i
+                  class="devicon-github-original colored about-me-icon icon-github"
+                ></i>
+                <i class="fa-solid fa-up-right-from-square icon-square"></i>
+              </div>
+            </div>
+            <p class="project-paragraph">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Distinctio quam, ipsam, magni labore ad tempora modi doloremque et
+              cum ea possimus. Vel sit aperiam facilis dolore modi? Doloribus,
+              qui dignissimos.
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="contact-container">
+        <div class="contact-info">
+          <h4 class="contact-heading">Contact me</h4>
+          <p class="contact-paragraph">
+            Please get in touch if you think our <br />
+            work could be mutually beneficial
+          </p>
+          <br />
+          <p class="contact-paragraph">
+            1234 Random Road <br />Random Town, California 12345
+          </p>
+          <br />
+          <div class="contact-icon-container">
+            <div class="contact-icon-wrapper">
+              <svg
+                width="40"
+                height="40"
+                stroke="white"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+              >
+                <title>phone-outline</title>
+                <path
+                  d="M20,15.5C18.8,15.5 17.5,15.3 16.4,14.9C16.3,14.9 16.2,14.9 16.1,14.9C15.8,14.9 15.6,15 15.4,15.2L13.2,17.4C10.4,15.9 8,13.6 6.6,10.8L8.8,8.6C9.1,8.3 9.2,7.9 9,7.6C8.7,6.5 8.5,5.2 8.5,4C8.5,3.5 8,3 7.5,3H4C3.5,3 3,3.5 3,4C3,13.4 10.6,21 20,21C20.5,21 21,20.5 21,20V16.5C21,16 20.5,15.5 20,15.5M5,5H6.5C6.6,5.9 6.8,6.8 7,7.6L5.8,8.8C5.4,7.6 5.1,6.3 5,5M19,19C17.7,18.9 16.4,18.6 15.2,18.2L16.4,17C17.2,17.2 18.1,17.4 19,17.4V19Z"
+                />
+              </svg>
+              <p class="contact-phone-text">555-555-5555</p>
+            </div>
+            <div class="contact-icon-wrapper">
+              <svg
+                width="40"
+                height="40"
+                stroke="white"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+              >
+                <title>email-outline</title>
+                <path
+                  d="M22 6C22 4.9 21.1 4 20 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6M20 6L12 11L4 6H20M20 18H4V8L12 13L20 8V18Z"
+                />
+              </svg>
+              <p class="contact-mail-text">email@address.com</p>
+            </div>
+          </div>
+          <div class="footer-links-container">
+            <i
+              class="devicon-github-original colored about-me-icon icon-github"
+            ></i>
+            <i
+              class="devicon-linkedin-plain colored about-me-icon icon-linkedin"
+              style="color: black"
+            ></i>
+            <i
+              class="devicon-twitter-original colored about-me-icon icon-twitter"
+            ></i>
+          </div>
+        </div>
+
+        <img
+          class="contact-img"
+          src="./src/assets/images/profilePicture.jpg"
+          alt=""
         />
-      </svg>
-      <svg
-        width="30"
-        height="30"
-        stroke="white"
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 24 24"
-      >
-        <title>email-outline</title>
-        <path
-          d="M22 6C22 4.9 21.1 4 20 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6M20 6L12 11L4 6H20M20 18H4V8L12 13L20 8V18Z"
-        />
-      </svg>
-    </div>
+      </div>
+    </footer>
   </body>
 </html>
