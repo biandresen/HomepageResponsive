@@ -6,6 +6,7 @@
   --clr-primary: #ffffff;
   --clr-secondary: #0891b2;
   --clr-primary-text: #000000;
+  --clr-primary-text-faded: hsla(0, 0%, 0%, 0.7);
   --clr-secondary-text: #ffffff;
   --clr-card-1: #9e1c1c;
   --clr-card-2: #7c75ca;
@@ -24,10 +25,10 @@
   --fw-semi-bold: 600;
   --fw-bold: 800;
 
-  --fs-xs: 0.8rem;
-  --fs-small: 1rem;
-  --fs-medium: 1.875rem;
-  --fs-big: 2.5rem;
+  --fs-xs: 1.8rem;
+  --fs-small: 2rem;
+  --fs-medium: 2.875rem;
+  --fs-big: 3.5rem;
   --fs-gigantic: 5.5rem;
 
   --fs-primary-heading: var(--fs-gigantic);
@@ -35,7 +36,7 @@
   --fs-body: var(--fs-medium);
   --fs-detail: var(--fs-small);
 
-  --box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.8);
+  --box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .top-background-decor {
@@ -50,24 +51,59 @@
 }
 
 .profile-picture-container {
-  position: relative;
-  top: 100px;
-  left: 100px;
+  position: absolute;
+  z-index: 1;
+  top: 12%;
+  left: 5%;
   width: 780px;
   box-shadow: var(--box-shadow);
 }
-.profile-picture-container img {
+/* .profile-picture-container img {
   width: 100%;
   height: auto;
-}
+} */
 .profile-picture-name {
   position: absolute;
   top: 100%;
   left: 50%;
   white-space: nowrap;
-  transform: translate(-50%, -100%);
+  translate: -50% -100%;
   color: var(--clr-secondary-text);
-  font-family: var(--ff-primary);
+  font-family: var(--ff-heading);
   font-size: var(--fs-gigantic);
   text-shadow: var(--box-shadow);
+}
+
+.about-me-container {
+  box-shadow: var(--box-shadow);
+  position: relative;
+  background-color: var(--clr-primary);
+  width: 890px;
+  height: 510px;
+  top: 20%;
+  left: 47%;
+}
+.about-me-header {
+  font-size: var(--fs-big);
+  font-family: var(--ff-heading);
+  margin: 20px 0 0 30px;
+}
+.about-me-paragraph {
+  font-size: var(--fs-small);
+  font-family: var(--ff-body);
+  color: var(--clr-primary-text-faded);
+  margin: 20px 50px 0 30px;
+}
+.about-me-icon-container {
+  display: flex;
+  gap: 10px;
+  position: absolute;
+  top: 100%;
+  left: 100%;
+  translate: -100% -100%;
+  padding: 0px 50px 30px 0;
+}
+.about-me-icon {
+  font-size: var(--fs-medium);
+  padding-left: 20px;
 }
