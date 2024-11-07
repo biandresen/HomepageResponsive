@@ -1,3 +1,37 @@
 .icons {
   display: none;
 }
+
+:root {
+  --clr-primary: #ffffff;
+  --clr-secondary: #0891b2;
+  --clr-primary-text: #000000;
+  --clr-secondary-text: #ffffff;
+  --clr-card-1: #9e1c1c;
+  --clr-card-2: #7c75ca;
+  --clr-card-3: #f6f6f6;
+  --clr-card-4: #c363b4;
+  --clr-card-5: #d88f39;
+  --clr-card-6: #0891b2;
+
+  --ff-primary: "Playfair Display", sans-serif;
+  --ff-secondary: "Roboto", sans-serif;
+
+  --ff-heading: var(--ff-primary);
+  --ff-body: var(--ff-secondary);
+
+  --fw-regular: 400;
+  --fw-semi-bold: 600;
+  --fw-bold: 800;
+
+  --fs-xs: 0.8rem;
+  --fs-small: 1rem;
+  --fs-medium: 1.875rem;
+  --fs-big: 2.5rem;
+  --fs-gigantic: 3.5rem;
+
+  --fs-primary-heading: var(--fs-gigantic);
+  --fs-heading: var(--fs-big);
+  --fs-body: var(--fs-medium);
+  --fs-detail: var(--fs-small);
+}
