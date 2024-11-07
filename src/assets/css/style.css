@@ -28,10 +28,46 @@
   --fs-small: 1rem;
   --fs-medium: 1.875rem;
   --fs-big: 2.5rem;
-  --fs-gigantic: 3.5rem;
+  --fs-gigantic: 5.5rem;
 
   --fs-primary-heading: var(--fs-gigantic);
   --fs-heading: var(--fs-big);
   --fs-body: var(--fs-medium);
   --fs-detail: var(--fs-small);
+
+  --box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.8);
+}
+
+.top-background-decor {
+  position: absolute;
+  z-index: -100;
+  background-color: var(--clr-secondary);
+  width: 100%;
+  height: 900px;
+  translate: 0 -250px;
+  transform: skewY(-13deg);
+  overflow: hidden;
+}
+
+.profile-picture-container {
+  position: relative;
+  top: 100px;
+  left: 100px;
+  width: 780px;
+  box-shadow: var(--box-shadow);
+}
+.profile-picture-container img {
+  width: 100%;
+  height: auto;
+}
+.profile-picture-name {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  white-space: nowrap;
+  transform: translate(-50%, -100%);
+  color: var(--clr-secondary-text);
+  font-family: var(--ff-primary);
+  font-size: var(--fs-gigantic);
+  text-shadow: var(--box-shadow);
 }
